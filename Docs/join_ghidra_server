@@ -1,0 +1,7 @@
+1. open ghidra and open a new project
+2. select shared project
+3. server name will be: ghidraserver.eastus.cloudapp.azure.com port 13100
+4. make sure existing repository is selected, you will see the repo name, Honda, highlight it and click next
+5. select the location for your local copy and select finish
+6. when you get prompted for your username, it will be your discord name and pass is changeme 
+7. you will then change your password and you should then have access to the repository.

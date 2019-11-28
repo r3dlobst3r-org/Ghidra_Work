@@ -1,0 +1,30 @@
+Cheat Sheet
+
+Can Mailbox Bytes:
+
+DATA0: b7 - b0
+DATA1: b15 - b8
+DATA2: b23 - b16
+DATA3: b31 - b24
+DATA4: b39 - b32
+DATA5: b47 - b40
+DATA6: b55 - b48
+DATA7: b63 - b56
+
+X & 0x7F: it's clearing b7, because 7F = 0111 1111
+X & 0xBF: it's clearing b6, because BF = 1011 1111
+X & 0xDF: it's clearing b5, because DF = 1101 1111
+X & 0xEF: it's clearing b4
+X & 0xF7: it's clearing b3
+X & 0xFB: it's clearing b2
+X & 0xFD: it's clearing b1
+X & 0xFE: it's clearing b0
+
+X | 0x80: it's setting b7
+X | 0x40: it's setting b6
+X | 0x20: it's setting b5
+X | 0x10: it's setting b4
+X | 0x08: it's setting b3
+X | 0x04: it's setting b2
+X | 0x02: it's setting b1
+X | 0x01: it's setting b0
