@@ -17,8 +17,8 @@ if [ $changed = 1 ]; then
     cd
     unzip ghidra/build/dist/ghidra*.zip
     cd ghidra_*
-    rsync -a  * /Users/andrew/Documents/GitHub/Ghidra_macOS/
-    cd /Users/andrew/Documents/GitHub/Ghidra_macOS/
+    rsync -a  * /Users/andrew/Ghidra_macOS/
+    cd /Users/andrew/Ghidra_macOS/
     git fetch
     git add .
     git commit -a -m new_build_$_now
